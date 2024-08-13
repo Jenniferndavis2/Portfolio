@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
 
-const fullName = 'Replace with your name';
-const personalQuote = 'Replace with your personal quote';
-const professionalSummary = 'Replace with your professional summary';
+const fullName = 'Jennifer Davis';
+const personalQuote = 'Do your best daily and you wont live in regret.';
+const professionalSummary = 'IT Professional with 15 years of technical skills, with proven experience in Operations Support, Technical support, superior customer service, and sales. A solid track record in agile project management with familiarity with a broad range of programming languages and interactive user interfaces. Possessing knowledge of the entire web development process, command line, and shell scripting. Career supported by the pursuit of a W3C Front-Back End Developer Professional Certificate and a Google UX Design Certificate.';
 
 const Home = () => {
   return (

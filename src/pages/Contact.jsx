@@ -7,7 +7,7 @@ const Contact = () => {
     const body = data.body;
     const subject = data.subject;
     // The myEmail variable should be replaced with your email address
-    const myEmail= "replace with your email address";
+    const myEmail= "jndavis143@gmail.com";
     const mailToLink = `mailto:${myEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("From: " + email + ", Message: " + body)}`;
     window.location.href = mailToLink;
   }
@@ -17,13 +17,13 @@ const Contact = () => {
       <h2 className="text-2xl font-medium text-center">Contact Form</h2>
       <p className="text-lg text-center">If you are interested in my work, fill out this form below</p>
       <form onSubmit={handleSubmit(onSubmit)}>
-      <label htmlFor="email">
+      <label htmlFor="jndavis143@gmail.com">
           <p>Your Email</p>
           <input
           {...register("email", { required: true })}
           type="email" 
           id="email" 
-          placeholder="Enter your email here"
+          placeholder="jndavis143@gmail.com"
           required
           />
         </label>
