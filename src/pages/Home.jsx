@@ -17,7 +17,7 @@ const Home = () => {
         {/* Replace the src with your own placeholder and change the alt to match the description */}
         <img className="hero-background" src={PlaceholderHero} alt="placeholder hero image" />
       </section>
-      <section className="overview home-subsection">
+      <section className="overview home-subsection bg-pink">
         <h3 className="subsection-intro-header">Introduction</h3>
         <h2 className="subsection-big-header">Overview.</h2>
         <p className="subsection-paragraph">{professionalSummary}</p>

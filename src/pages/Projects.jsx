@@ -9,17 +9,17 @@ import { FaGithub } from "react-icons/fa6";
 const myProjects = [
   {
     title: 'Project 1',
-    description: 'Description of project 1',
+    description: 'Weather App that displays the current weather in a city',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
     title: 'Project 2',
-    description: 'Description of project 2',
+    description: 'SMJ Player is a music player that allows you to play music from your local storage',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
     title: 'Project 3',
-    description: 'Description of project 3',
+    description: 'Store Manager is a web application that allows you to manage your store inventory',
     repositoryLink: 'Link to the GitHub repository',
   },
   {

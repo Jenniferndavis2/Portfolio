@@ -1,9 +1,11 @@
-.navigation {
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playwrite+AR:wght@100..400&display=swap');
+.navigation { 
+  font-family: "Pinyon Script", cursive;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 100px;
-  background-color: #744af6;
+  background-color: #686765;
   color: white;
   position: sticky;
   top: 0;
