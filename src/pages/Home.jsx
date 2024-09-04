@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
 
-const fullName = 'Jennifer Davis';
-const personalQuote = 'Do your best daily and you wont live in regret.';
+const fullName = 'Jai~D';
+const personalQuote = 'Commit to the Lord whatever you do, and your plans will succeed. So do your best daily and you wont live in regret.';
 const professionalSummary = 'IT Professional with 15 years of technical skills, with proven experience in Operations Support, Technical support, superior customer service, and sales. A solid track record in agile project management with familiarity with a broad range of programming languages and interactive user interfaces. Possessing knowledge of the entire web development process, command line, and shell scripting. Career supported by the pursuit of a W3C Front-Back End Developer Professional Certificate and a Google UX Design Certificate.';
 
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
       <section className="projects home-subsection">
         <h3 className="subsection-intro-header">My Works</h3>
         <h2 className="subsection-big-header">Projects.</h2>
-        <p className="subsection-paragraph">I have worked on multiple project, the projects I have worked on demonstrate my skills and experience through real-life examples of my work. Each project is briefly deescribed and includes links to code repositories that showcase my ability to tackle challenging problems. If you are interested in my work click on the link below to go to the project page.</p>
+        <p className="subsection-paragraph"> The projects I have worked on demonstrate my skills and experience through real-life examples of my work. Each project is briefly described and includes links to code repositories that showcases my ability to tackle challenging problems. If you are interested in my work click on the link below to go to the project page.</p>
         <NavLink to="/projects">
         View Projects
         </NavLink>
