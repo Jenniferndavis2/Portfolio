@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa6";
 import weatherpic from "../assets/weather-app-pic.jpg";
+import musicnote from "../assets/musicnote.png";
 
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
 // properties:
@@ -9,22 +10,22 @@ import weatherpic from "../assets/weather-app-pic.jpg";
 // You can also add more properties if you want to display more information about your projects.
 const myProjects = [
   {
-    title: 'Project 1',
+    title: 'Weather App',
     description: 'Weather App that displays the current weather in a city',
-    repositoryLink: 'Link to the GitHub repository',
+    repositoryLink: 'https://jennifer-weather-app.netlify.app',
     projectImage: weatherpic,
   },
   {
-    title: 'Project 2',
+    title: 'SMJ Player',
     description: 'SMJ Player is a music player that allows you to play music from your local storage',
-    repositoryLink: 'Link to the GitHub repository',
-    projectImage:"",
+    repositoryLink: 'https://smjplayer.netlify.app',
+    projectImage: musicnote,
   },
   {
     title: 'Project 3',
     description: 'Store Manager is a web application that allows you to manage your store inventory',
     repositoryLink: 'Link to the GitHub repository',
-    projectImage:"",
+    projectImage:"music note.png",
   },
   {
     title: 'Project 4',
